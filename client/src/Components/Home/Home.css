@@ -50,3 +50,17 @@
           padding-bottom: 10px;
           font-size: 20px;
 }
+.home .conetnt h4{
+          margin-top: 30px;
+}
+
+.img {
+          margin-top: 10x;
+}
+
+.img .imgForm img {
+          position: absolute;
+          right: 150px;
+          top: 170px;
+          width: 300px;
+}

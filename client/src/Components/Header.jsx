@@ -1,5 +1,6 @@
 import React from "react";
-import { AppBar, Toolbar, Tabs } from "@mui/material";
+import { AppBar, Toolbar } from "@mui/material";
+import Tabs from "@mui/material/Tabs";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
@@ -10,19 +11,29 @@ const Header = () => {
         <AppBar position="static">
           <Toolbar>
             <Tabs className="tab">
-              <NavLink to={"/"} className={"conetnt"}>Home</NavLink>
+              <NavLink to={"/"} className={"conetnt"}>
+                Home
+              </NavLink>
             </Tabs>
             <Tabs className="tab">
-              <NavLink to={"/about"} className={"conetnt"}>About</NavLink>
+              <NavLink to={"/about"} className={"conetnt"}>
+                About
+              </NavLink>
             </Tabs>
             <Tabs className="tab">
-              <NavLink to={"/service"} className={"conetnt"}>Service</NavLink>
+              <NavLink to={"/service"} className={"conetnt"}>
+                Service
+              </NavLink>
             </Tabs>
             <Tabs className="tab">
-              <NavLink to={"/portfolio"} className={"conetnt"}>Portfolio</NavLink>
+              <NavLink to={"/portfolio"} className={"conetnt"}>
+                Portfolio
+              </NavLink>
             </Tabs>
             <Tabs className="tab">
-              <NavLink to={"/contact"} className={"conetnt"}>Contact</NavLink>
+              <NavLink to={"/contact"} className={"conetnt"}>
+                Contact
+              </NavLink>
             </Tabs>
           </Toolbar>
         </AppBar>
